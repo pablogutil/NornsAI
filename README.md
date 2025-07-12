@@ -48,7 +48,7 @@ All agents are extensible via config + prompt schema.
 ---
 
 ### 🏦 4. Meta Investment Bank (Meta IBD)
-## Inspired by the operational flow of a real investment bank, Meta IBD is a multi-agent system that simulates roles like:
+#### Inspired by the operational flow of a real investment bank, Meta IBD is a multi-agent system that simulates roles like:
 
 - 🧠 Financial Analyst (valuation, DCFs, KPI scoring)
 - 📈 Quant (factor screens, risk model analysis)
@@ -74,7 +74,7 @@ All AI activity is locally controlled and customizable per user SOP.
 ---
 
 ### 📉 6. Risk Modeling & Simulation
-## Upload or connect portfolio data
+#### Upload or connect portfolio data
 
 - Live tracking of allocation, sector exposure, unrealized gain/loss
 - VaR Calculator: Monte Carlo simulations at 95% or 99% confidence
