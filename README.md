@@ -1,4 +1,4 @@
-Norns AI 🧠📈
+# Norns AI 🧠📈
 ---
 
 ## ✨ Overview
