@@ -108,7 +108,7 @@ All AI activity is locally controlled and customizable per user SOP.
 | Frontend     | React, Tailwind, Next.js, Recharts, D3.js  |
 | Backend      | Python, FastAPI, Redis, Pandas, NumPy       |
 | AI Models    | Qwen, GPT-4, FinBERT, OpenAI (optional)     |
-| Data Feeds   | Yahoo Finance, FRED, IMF, SEC, CoinGecko, Reddit, Twitter, OSINT scrapers  |
+| Data Feeds   | Yahoo Finance, FRED, IMF, SEC, CoinGecko    |
 | Portfolio    | CSV ingest, SQLite, OAuth (optional)        |
 | Newsletter   | Custom fetchers, Notion API, scraping utils |
 | Hosting      | Local / Vercel / Railway / Render           |
