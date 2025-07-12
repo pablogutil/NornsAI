@@ -1,11 +1,4 @@
-Norns AI 🧠📈  
-*The open-source financial terminal reimagined with intelligent agents, modern UX, and portfolio automation.* and the metagpt explanation from their readme:Software Company as Multi-Agent System
-MetaGPT takes a one line requirement as input and outputs user stories / competitive analysis / requirements / data structures / APIs / documents, etc.
-Internally, MetaGPT includes product managers / architects / project managers / engineers. It provides the entire process of a software company along with carefully orchestrated SOPs.
-Code = SOP(Team) is the core philosophy. We materialize SOP and apply it to teams composed of LLMs.
-A software company consists of LLM-based roles
-
-Software Company Multi-Agent Schematic (Gradually Implementing)
+Norns AI 🧠📈
 ---
 
 ## ✨ Overview
@@ -54,7 +47,7 @@ All agents are extensible via config + prompt schema.
 
 ---
 
-### 🏦 3. Meta Investment Bank (Meta IBD)
+### 🏦 4. Meta Investment Bank (Meta IBD)
 ## Inspired by the operational flow of a real investment bank, Meta IBD is a multi-agent system that simulates roles like:
 
 - 🧠 Financial Analyst (valuation, DCFs, KPI scoring)
@@ -71,7 +64,7 @@ All AI activity is locally controlled and customizable per user SOP.
 
 ---
 
-### 📬 4. Newsletter & Digest Engine
+### 📬 5. AI Digest & Newsletter Engine
 
 - Integrates with top finance newsletters (Amplify, Finimize, Daily Upside)
 - LLM-generated TL;DR of daily editions
@@ -80,7 +73,7 @@ All AI activity is locally controlled and customizable per user SOP.
 
 ---
 
-### 📉 5. Risk Modeling & Simulation
+### 📉 6. Risk Modeling & Simulation
 ## Upload or connect portfolio data
 
 - Live tracking of allocation, sector exposure, unrealized gain/loss
@@ -91,12 +84,20 @@ All AI activity is locally controlled and customizable per user SOP.
 
 ---
 
-### 🔐 5. Modular & Secure by Design
+### 🔐 7. Modular & Secure by Design
 
 - Deployable locally or to private cloud (no vendor lock-in)
 - Modular extension system: add agents, widgets, or custom APIs
 - FastAPI backend with clean REST routes
 - All data requests, AI prompts, and dashboards are user-controlled
+  
+---
+
+### 🌐 8. OSINT Signals Engine
+
+- Surfaces intelligence from public datasets, regulatory updates, social platforms, and crowd behavior  
+- Powers Betty Agent (retail sentiment), Holmes Agent (event detection), and Polo Agent (opportunity spotting)  
+- Expandable architecture: plug in RSS, X (Twitter), Reddit, YouTube, or filings feeds  
 
 ---
 
@@ -107,7 +108,7 @@ All AI activity is locally controlled and customizable per user SOP.
 | Frontend     | React, Tailwind, Next.js, Recharts, D3.js  |
 | Backend      | Python, FastAPI, Redis, Pandas, NumPy       |
 | AI Models    | Qwen, GPT-4, FinBERT, OpenAI (optional)     |
-| Data Feeds   | Yahoo Finance, FRED, IMF, SEC, CoinGecko    |
+| Data Feeds   | Yahoo Finance, FRED, IMF, SEC, CoinGecko, Reddit, Twitter, OSINT scrapers  |
 | Portfolio    | CSV ingest, SQLite, OAuth (optional)        |
 | Newsletter   | Custom fetchers, Notion API, scraping utils |
 | Hosting      | Local / Vercel / Railway / Render           |
