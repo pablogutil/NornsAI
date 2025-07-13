@@ -1,4 +1,4 @@
-# <img width="60" height="60" alt="Screenshot 2025-07-12 at 02 12 51" src="https://github.com/user-attachments/assets/34a56406-36da-48e9-ade1-24733d13a9fd" /> Norns AI 
+# <img width="40" height="40" alt="Screenshot 2025-07-12 at 02 12 51" src="https://github.com/user-attachments/assets/34a56406-36da-48e9-ade1-24733d13a9fd" /> Norns AI 
 
 ---
 
